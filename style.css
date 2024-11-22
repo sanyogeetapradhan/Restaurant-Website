@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+
+body {
+    font-family: "Spline sans" , sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: black;
+}
+ a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+    font-weight: 600;
+ }
+a:hover {
+    color: aqua
+}
+
+img {
+    min-width: 100%;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0;
+}
+
+/* slider */
+.slide-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.638), rgba(0, 0, 0, 0.726));  
+}
+.slide-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+ 
+#heroslider h6::after,
+#heroslider h6::before {
+   content: "   ";
+   background-color: white;
+   width: 40px;
+   height: 5px;
+   display: inline-block;
+   margin: 10px;
+   vertical-align: auto;
+}
+
+.newClass {
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
